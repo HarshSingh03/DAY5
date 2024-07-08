@@ -1,0 +1,33 @@
+form{
+  display: grid;
+  grid-template-columns:300px 400px;
+  row-gap: 20px;
+  column-gap: 30px;
+  width:800px;
+  margin:auto;
+  margin-top:50px;
+  border:solid rgba(128, 128, 128, 0.425) 2px;
+  border-radius: 4px;
+  padding:200px 150px;
+  background-color: rgb(202, 210, 216);;
+}
+
+label{
+  font-size:25px;
+}
+
+input, textarea{
+  border:solid 2px rgba(19, 18, 18, 0.5);
+  border-radius: 4px;
+  font-size: 25px;
+}
+
+textarea{
+  height:100px;
+}
+
+.submit{
+  background-color: rgb(71, 70, 70);
+  color:white;
+  padding:10px 30px;
+}
